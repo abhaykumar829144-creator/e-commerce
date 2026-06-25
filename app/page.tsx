@@ -1,4 +1,5 @@
 import HomeBanner from "@/components/homeComponents/HomeBanner";
+import HomeCategory from "@/components/homeComponents/HomeCategory";
 import Header from "@/components/layout/Header";
 
 export default function Home() {
@@ -6,5 +7,7 @@ export default function Home() {
     <>
     <Header/>
     <HomeBanner/>
-    </>)
+    <HomeCategory/>
+    </>
+  )
 }
