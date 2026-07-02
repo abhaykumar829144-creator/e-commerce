@@ -26,6 +26,11 @@
             height: 180px;
             position: relative;
 
+            .category_card_img{
+                object-fit: cover;
+                transition: tranform 0.3s ease;
+            }
+
         &::after{
             content: '';
             position: absolute;

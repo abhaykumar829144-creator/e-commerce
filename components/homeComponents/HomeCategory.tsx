@@ -2,6 +2,7 @@
 import React from 'react'
 import './HomeCategory.css'
 import { categories } from '@/data/productsData'
+import Image from 'next/image'
 
 const HomeCategory: React.FC = () => {
   return (
@@ -14,6 +15,19 @@ const HomeCategory: React.FC = () => {
                     style={{ backgroundImage: `url(${category.image})`}}
                     className='cat_card'
                     >
+                        <Image
+                        src={category.image}
+                        alt={category.name}
+                        className='category_card_img'
+                        width={100}
+                        height={100}
+                        unoptimized
+                        style={{
+                            width: "100% !important",
+                            height: "100% !important",
+
+                        }}
+                        />
                         <div className='cat_name'>{category.name}</div>
                         
                     </div>)
