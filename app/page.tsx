@@ -1,3 +1,4 @@
+import FeaturedProducts from "@/components/homeComponents/FeaturedProducts";
 import HomeBanner from "@/components/homeComponents/HomeBanner";
 import HomeCategory from "@/components/homeComponents/HomeCategory";
 import FooterLayout from "@/components/layout/FooterLaylout";
@@ -10,6 +11,7 @@ export default function Home() {
     <Header/>
     <HomeBanner/>
     <HomeCategory/>
+    <FeaturedProducts />
     <FooterLayout/>
     </>
   )
