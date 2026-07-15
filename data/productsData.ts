@@ -1,4 +1,4 @@
-import { ICategory, IProduct } from "@/interfaces/product";
+import { ICategory, IProduct } from "@/interfaces/products";
 
 export const categories: ICategory[] = [
     {
@@ -30,17 +30,17 @@ export const categories: ICategory[] = [
   export const products: IProduct[] = [
     {
       id: 1,
-      title: "premium Noise-cancelling headphones",
+      title: "premium noise-cancelling headphones",
       category: "Electronics",
-      price: 189.99,
+      price:189.99,
       oldPrice: 249.99,
       rating: 4.8,
       reviews: 124,
-      badge: "SALE",
-      images:
-        "https://images.unsplash.com/photo-1512499617640-c2f999018b72?auto=format&fit=crop&w=400&q=80",
+      badge:"SALE",
+      image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     },
-{
+    {
     id: 2,
     title: "Minimalist Leather Smart Watch",
     category: "Electronics",
@@ -48,7 +48,7 @@ export const categories: ICategory[] = [
     rating: 4.5,
     reviews: 82,
     badge: "NEW",
-    images:
+    image:
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80",
   },
   {
@@ -58,7 +58,7 @@ export const categories: ICategory[] = [
     price: 85.0,
     rating: 4.9,
     reviews: 215,
-    images:
+    image:
       "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=500&q=80",
   },
   {
@@ -69,7 +69,7 @@ export const categories: ICategory[] = [
     oldPrice: 59.99,
     rating: 4.2,
     reviews: 47,
-    images:
+    image:
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
   },
 ]

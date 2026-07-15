@@ -1,33 +1,34 @@
-import { IFooterLink }  from "@/interfaces/footer";
+import { IFooterLink } from "@/interfaces/footer";
 
 export const footerData: IFooterLink[] = [
-    {
-        title: "browse",
-        urlData: [
-            {
-                urlTitle: "store location",
-                urlLink: "#",
-            },
-            {
-                urlTitle: "delivery Estimates",
-                urlLink: "#",
-            },
-            {
-                urlTitle: "careers",
-                urlLink: "#",
-            },
-        ],
+  {
+    title: "Browse",
+    urlData: [
+        {
+        urlTitle: "Orders",
+        urlLink: "/orders",
+      },
+      {
 
-    },
-
-{
+        urlTitle: "Store Locations",
+        urlLink: "#",
+      },
+    
+      {
+        urlTitle: "Careers",
+        urlLink: "#",
+      },
+    ],
+  },
+  {
     title: "Support",
     urlData: [
-      { urlTitle: "Help Center", urlLink: "#" },
+      { urlTitle: "Help Centre", urlLink: "#" },
       { urlTitle: "Refund Policies", urlLink: "#" },
       { urlTitle: "Submit Ticket", urlLink: "#" },
     ],
   },
+
   {
     title: "Legal",
     urlData: [
@@ -35,6 +36,5 @@ export const footerData: IFooterLink[] = [
       { urlTitle: "Terms of Service", urlLink: "#" },
       { urlTitle: "Cookie Settings", urlLink: "#" },
     ],
-
   },
-]
+];

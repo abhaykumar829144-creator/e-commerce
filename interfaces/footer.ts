@@ -1,9 +1,9 @@
-export interface IFooterLink {
-    title:string;
-    urlData: IurlDetail[]
+export interface IFooterLink{
+    title: string;
+    urlData: IUrlDetail[];
 }
 
-interface IurlDetail {
+interface IUrlDetail {
     urlTitle: string;
     urlLink: string;
 }
